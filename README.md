@@ -21,12 +21,12 @@ The TWRP binaries were provided by [Hovatek](https://www.hovatek.com/). Device-s
 
 ## Requirements
 
-- [`osm0sis/mkbootimg`](https://github.com/osm0sis/mkbootimg) (make sure it's cloned and accessible in your PATH)
+- [`osm0sis/mkbootimg`](https://github.com/osm0sis/mkbootimg) (make sure it's cloned and accessible in your PATH) and cpio & gzip
   - Depending on the version, the command may be `mkbootimg` or `./mkbootimg.py`.
 - On Arch Linux systems, you can install it using:
 
 ```bash
-yay -S mkbootimg-git
+yay -S mkbootimg-git cpio gzip
 ```
 
 ## Instructions
@@ -44,8 +44,11 @@ git clone https://github.com/furrofurry/twrp-recovery-oukitel-wp15
 ```bash
 cd twrp-recovery-oukitel-wp15
 ```
-
-### 3. Build the image
+### 4. Pack the source 
+```bash
+find ./source | cpio -o -H newc | gzip > ramdisk
+```
+### 5. Build the image
 
 Run the following command to build the `boot.img` from source:
 
@@ -68,7 +71,7 @@ mkbootimg \
 ```
 
 
-### 4. Flash with Fastboot
+### 6. Flash with Fastboot
 
 Once built, you can flash the new image to your device using:
 
@@ -78,7 +81,7 @@ fastboot flash boot new_boot.img
 ✅ Done, reboot to recovery.
 ---
 
-Recovery binary located at [/system/bin/recovery](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/blob/main/system/bin/recovery)
+Recovery binary located at [/source/system/bin/recovery](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/blob/main/source/system/bin/recovery)
 
 ---
 
