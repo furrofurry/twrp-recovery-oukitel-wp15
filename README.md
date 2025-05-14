@@ -10,7 +10,7 @@ This TWRP boot image is based on the **stock ROM**: `TF919_OQ_S89_6833_R0_EEA_V2
 
 The TWRP binaries were provided by [Hovatek](https://www.hovatek.com/). Device-specific binaries and trees were provided by the maintainer of this repository.
 
-A **prebuilt boot.img** is available for download under [Releases](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/releases/tag/boot.img), ready to be flashed directly.
+➡️ A **prebuilt boot.img** is available for download under [Releases](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/releases/tag/boot.img), ready to be flashed directly.
 
 ## Requirements
 
