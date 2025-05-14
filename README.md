@@ -83,12 +83,6 @@ fastboot flash boot new_boot.img
 ✅ Done
 ---
 
-## Ramdisk and DTB Note
-
-For efficiency, the `ramdisk` and `dtb` files are pre-built from source and included in this repository. If needed, their contents can be extracted and verified manually, for ramdisk using 
-``` bash
-gzip -dc ramdisk | cpio -i
-```
 Recovery binary located at [/system/bin/recovery](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/blob/main/system/bin/recovery)
 
 ---
