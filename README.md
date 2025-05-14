@@ -1,11 +1,22 @@
 # TWRP Recovery for Oukitel WP15
 
-This repository contains the resources and instructions needed to build a TWRP recovery image for the Oukitel WP15.
+This repository contains the resources and instructions needed to build a fully featured TWRP recovery image for the Oukitel WP15. All hardware buttons work, and this recovery enables advanced functionality such as flashing GSIs, sideloading, and performing system backups.
+
+## Device Notes
+
+The Oukitel WP15 uses an A/B partition layout, meaning a traditional `recovery.img` cannot be used. Instead, the recovery must be embedded directly into the `boot.img`. 
+
+This TWRP boot image is based on the **stock ROM**: `TF919_OQ_S89_6833_R0_EEA_V2.8.3.1_S231121`, which is available for download from the [official Oukitel website](https://oukitel.com/).
 
 ## Requirements
 
 - [`osm0sis/mkbootimg`](https://github.com/osm0sis/mkbootimg) (make sure it's cloned and accessible in your PATH)
   - Depending on the version, the command may be `mkbootimg` or `./mkbootimg.py`.
+- On Arch Linux systems, you can install it using:
+
+```bash
+yay -S mkbootimg-git
+```
 
 ## Instructions
 
@@ -62,3 +73,14 @@ fastboot flash boot new_boot.img
 ## Ramdisk and DTB Note
 
 For efficiency, the `ramdisk` and `dtb` files are pre-built from source and included in this repository. If needed, their contents can be extracted and verified manually.
+
+---
+
+## Post-Installation
+
+Once TWRP is booted, you can use it to:
+
+- Install a GSI (Generic System Image) of your choice
+- Use ADB sideload to flash packages
+- Perform full system backups and restores
+- Wipe partitions and manage files
