@@ -67,11 +67,6 @@ mkbootimg \
 --output new_boot.img
 ```
 
-> **Note**: If you're using the Python version from `osm0sis/mkbootimg`, the command might be:
->
-> ```bash
-> ./mkbootimg.py ...
-> ```
 
 ### 4. Flash with Fastboot
 
