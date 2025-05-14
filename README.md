@@ -80,6 +80,7 @@ For efficiency, the `ramdisk` and `dtb` files are pre-built from source and incl
 ``` bash
 gzip -dc ramdisk | cpio -i
 ```
+Recovery binary located at [/system/bin/recovery](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/blob/main/system/bin/recovery)
 
 ---
 
