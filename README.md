@@ -1,6 +1,10 @@
 # TWRP Recovery for Oukitel WP15
 
-This repository contains the resources and instructions needed to build a fully featured TWRP recovery image for the Oukitel WP15. All hardware buttons work, and this recovery enables advanced functionality such as flashing GSIs, sideloading, and performing system backups.
+**Your warranty may be voided.**
+
+**This is because it is required to unlock the bootloader and enter fastboot mode.**
+
+**This repository contains the resources and instructions needed to build a fully featured TWRP recovery image for the Oukitel WP15. All hardware buttons work, and this recovery enables advanced functionality such as flashing GSIs, sideloading, and performing system backups.**
 
 ## Device Notes
 
