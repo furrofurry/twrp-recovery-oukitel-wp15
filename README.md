@@ -75,7 +75,7 @@ Once built, you can flash the new image to your device using:
 ```bash
 fastboot flash boot new_boot.img
 ```
-✅ Done
+✅ Done, reboot to recovery.
 ---
 
 Recovery binary located at [/system/bin/recovery](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/blob/main/system/bin/recovery)
