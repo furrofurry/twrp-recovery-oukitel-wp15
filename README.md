@@ -1,4 +1,5 @@
 # TWRP Recovery for Oukitel WP15
+[tested by theophriene](https://github.com/theophriene)
 
 **Your warranty may be voided.**
 
