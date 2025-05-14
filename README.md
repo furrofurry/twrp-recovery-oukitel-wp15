@@ -29,6 +29,8 @@ yay -S mkbootimg-git
 ```
 
 ## Instructions
+[Instructions for the bootloader to be unlocked](https://xdaforums.com/t/oukitel-wp15.4402253/post-86465361)
+
 
 ### 1. Clone this repository
 
