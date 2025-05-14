@@ -71,12 +71,15 @@ Once built, you can flash the new image to your device using:
 ```bash
 fastboot flash boot new_boot.img
 ```
-
+✅ Done
 ---
 
 ## Ramdisk and DTB Note
 
-For efficiency, the `ramdisk` and `dtb` files are pre-built from source and included in this repository. If needed, their contents can be extracted and verified manually.
+For efficiency, the `ramdisk` and `dtb` files are pre-built from source and included in this repository. If needed, their contents can be extracted and verified manually, for ramdisk using 
+``` bash
+gzip -dc ramdisk | cpio -i
+```
 
 ---
 
