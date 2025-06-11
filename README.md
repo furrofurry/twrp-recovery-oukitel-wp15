@@ -95,8 +95,4 @@ Recovery binary located at [/source/system/bin/recovery](https://github.com/furr
 ## Post-Installation
 
 Once TWRP is booted, you can use it to:
-
-- Install a GSI (Generic System Image) of your choice
-- Use ADB sideload to flash packages
-- Perform full system backups and restores
 - Wipe partitions and manage files
