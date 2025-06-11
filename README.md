@@ -6,6 +6,7 @@
 **⚠️ Due to the A/B partition format, it's recommended to install an GSI manually using fastbootd. And for root, let magisk patch boot img. ⚠️**
 ---
 **⚠️ This repo helps with analyzing how the device trees are used, for further reverse engineering ⚠️**
+---
 
 **Your warranty may be voided.**
 
