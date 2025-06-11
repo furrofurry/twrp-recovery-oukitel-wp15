@@ -75,6 +75,8 @@ mkbootimg \
 --output new_boot.img
 ```
 
+Also it was compiled with fastboot by hovatek, removal also can bring other results.
+
 
 ### 6. Flash with Fastboot
 
