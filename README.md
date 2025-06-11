@@ -1,11 +1,10 @@
 # TWRP Recovery for Oukitel WP15
 [Tested by theophriene](https://github.com/theophriene)
 
-[----⚠️
-This is experimental, twrp loads well, but system partition is not detected, twrp acts like system, gsi could not be installed from twrp mid testing 
+**This is experimental, twrp loads well, but system partition is not detected, twrp acts like system, gsi could not be installed from twrp mid testing 
 Due to the A/B partition format, it's recommended to install an GSI manually using fastbootd. And for root, let magisk patch boot img. 
-This repo helps with analyzing how the device trees are used, for further reverse engineering. ----]
-
+This repo helps with analyzing how the device trees are used, for further reverse engineering.**
+---
 
 **Your warranty may be voided.**
 
