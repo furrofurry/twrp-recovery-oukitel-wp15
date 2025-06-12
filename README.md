@@ -17,8 +17,7 @@ The Oukitel WP15 uses an A/B partition layout, meaning a traditional `recovery.i
 
 This TWRP boot image is based on the **stock ROM**: `TF919_OQ_S89_6833_R0_EEA_V2.8.3.1_S231121`, which is available for download from the [official Oukitel website](https://oukitel.com/).
 
-⚠️ **Warning** if you already have custom os on the device and not the stock ROM, booting will fail. but you will meet the recovery. reinstalling the os/gsi is required. 
-
+⚠️ **Warning** if you already have custom os on the device and not the stock ROM, booting will fail. but you will meet the recovery.
 The TWRP binaries were provided by [Hovatek](https://www.hovatek.com/). Device-specific binaries and trees were provided by the maintainer of this repository.
 
 ➡️ A **prebuilt boot.img** is available for download under [Releases](https://github.com/furrofurry/twrp-recovery-oukitel-wp15/releases/tag/boot.img), ready to be flashed directly.
